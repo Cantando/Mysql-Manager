@@ -1,0 +1,23 @@
+{
+  "name": "mysql-manager",
+  "version": "1.0.0",
+  "description": "Employee_Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cantando/Mysql-Manager.git"
+  },
+  "author": "Myrna Cantando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cantando/Mysql-Manager/issues"
+  },
+  "homepage": "https://github.com/Cantando/Mysql-Manager#readme",
+  "dependencies": {
+    "inquirer": "^7.3.2",
+    "mysql": "^2.18.1"
+  }
+}
