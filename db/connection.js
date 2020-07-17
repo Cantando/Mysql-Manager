@@ -10,6 +10,9 @@ user: "root",
 password:"root",
 database:"Employee_Tracker"
 })
-connection.connect();
+connection.connect(function(err) {
+    if (err) throw err;
+    runSearch();
+  });
 connection.query = util.promisify(connection.query)
 module.exports = connection
